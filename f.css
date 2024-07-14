@@ -1,0 +1,32 @@
+
+
+a:link{
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: black;
+    text-decoration: none;
+}
+
+#d{
+font-family: 'Courier New', Courier, monospace;
+border-collapse: collapse;
+width: 1000px;
+}
+#d td,#d th{
+    border: solid 1px black;
+    padding: 8px;
+}
+
+#d tr:nth-child(even){
+    background-color: white
+}
+#d tr:hover{ background-color: #ddd;}
+
+#d th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: white;
+    color: black
+}
+html{background-color: black;}
